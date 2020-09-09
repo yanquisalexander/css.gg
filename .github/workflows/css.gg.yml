@@ -45,7 +45,7 @@ jobs:
       run: sudo gem install fontcustom
                 
     - name: Build 'css.gg'
-      run: fontcustom compile ./icons -h -n css.gg -o build -F
+      run: fontcustom compile ./icons/svg -h -n css.gg -o build -F
         
         
     - name: Zip 'css.gg'
